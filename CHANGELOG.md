@@ -11,3 +11,8 @@ Immutable color data structures with copyWith support
 Type-safe color management
 Complete documentation and examples
 
+## 0.5.1
+
+Fixed
+
+- minor documentation fixes / improvements

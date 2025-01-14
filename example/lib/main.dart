@@ -52,10 +52,11 @@ class ColorDemo extends StatelessWidget {
                         runSpacing: 8,
                         children: [
                           Card(
-                              child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text('Hello'),
-                          )),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text('Hello'),
+                            ),
+                          ),
                           Slider(value: 0.5, onChanged: (value) {}),
                           TextField(
                               decoration: InputDecoration(labelText: 'Name')),
