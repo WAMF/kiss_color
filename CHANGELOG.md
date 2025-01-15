@@ -16,3 +16,9 @@ Complete documentation and examples
 Fixed
 
 - minor documentation fixes / improvements
+
+## 0.6.0
+
+Added
+
+- ThemeData extension to easily convert semantic colors to a ThemeData

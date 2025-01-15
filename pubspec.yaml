@@ -1,6 +1,6 @@
 name: kiss_color
 description: A Flutter package that provides a flexible and maintainable way to manage semantic color systems in your application.
-version: 0.5.1
+version: 0.6.0
 homepage: https://github.com/WAMF/kiss_color
 
 environment:

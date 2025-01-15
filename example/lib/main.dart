@@ -41,7 +41,7 @@ class ColorDemo extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Theme(
-                  data: colors.theme,
+                  data: colors.data.theme,
                   child: Column(
                     spacing: 8,
                     crossAxisAlignment: CrossAxisAlignment.start,

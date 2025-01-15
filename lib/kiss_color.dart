@@ -246,20 +246,20 @@ extension SemanticColorVisualizer on SemanticColors {
   }
 }
 
-extension SemanticColorExtension on SemanticColors {
+extension SemanticColorExtension on SemanticColorsData {
   ThemeData get theme => ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: data.primary.background,
-          primary: data.primary.background,
-          onPrimary: data.primary.foreground,
-          secondary: data.secondary.background,
-          onSecondary: data.secondary.foreground,
-          error: data.state.error.background,
-          onError: data.state.error.foreground,
-          surface: data.secondary.background,
-          onSurface: data.secondary.foreground,
-          shadow: data.primary.shadow,
-          outline: data.primary.outline,
+          seedColor: primary.background,
+          primary: primary.background,
+          onPrimary: primary.foreground,
+          secondary: secondary.background,
+          onSecondary: secondary.foreground,
+          error: state.error.background,
+          onError: state.error.foreground,
+          surface: secondary.background,
+          onSurface: secondary.foreground,
+          shadow: primary.shadow,
+          outline: primary.outline,
         ),
       );
 }
